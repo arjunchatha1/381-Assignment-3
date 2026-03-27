@@ -1,3 +1,5 @@
+// Group member 1: Arjun Chatha, UCID: 30207126
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
