@@ -1,7 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import Homepage from './Homepage';
-import './style.css'; 
+import React from "react";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from "./Homepage";
+
+import FlavorsPage from "./FlavorsPage"; 
+import "./style.css";
 
 function App() {
   return (
@@ -12,9 +15,8 @@ function App() {
         <Route path="/" element={<Homepage />} />
         
         
-        {/* <Route path="/flavors" element={<FlavorsPage />} /> */}
-        //UNcomment this when you do the login page. 
-        {/* <Route path="/login" element={<LoginPage />} /> */}
+        <Route path="/flavors" element={<FlavorsPage />} />
+      
       </Routes>
     </Router>
   );

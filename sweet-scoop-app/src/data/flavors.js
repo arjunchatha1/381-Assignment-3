@@ -1,4 +1,5 @@
 const flavors = [
+
   {
     id: 1,
     name: "Vanilla Dream",
@@ -6,6 +7,7 @@ const flavors = [
     description: "Classic creamy vanilla ice cream made with fresh ingredients.",
     image: "images/vanilla.jpg"
   },
+
   {
     id: 2,
     name: "Chocolate Explosion",
@@ -13,6 +15,7 @@ const flavors = [
     description: "Rich dark chocolate ice cream with chunks of fudge.",
     image: "images/chocolate.jpg"
   },
+
   {
     id: 3,
     name: "Strawberry Bliss",
@@ -20,6 +23,7 @@ const flavors = [
     description: "Fresh hand-picked strawberries swirled into sweet cream.",
     image: "images/strawberry.jpg"
   },
+
   {
     id: 4,
     name: "Mint Magic",
@@ -27,6 +31,7 @@ const flavors = [
     description: "Cool peppermint flavor with crunchy dark chocolate chips.",
     image: "images/mint.jpg"
   },
+
   {
     id: 5,
     name: "Classic Choco",
@@ -34,6 +39,7 @@ const flavors = [
     description: "A timeless chocolate treat for any occasion.",
     image: "images/chocolate.jpg"
   },
+
   {
     id: 6,
     name: "Vanilla Bean",
@@ -41,6 +47,7 @@ const flavors = [
     description: "Smooth vanilla bean with a rich aromatic finish.",
     image: "images/vanilla.jpg"
   },
+
   {
     id: 7,
     name: "Berry Twist",
@@ -48,6 +55,7 @@ const flavors = [
     description: "A delightful twist of strawberry and cream.",
     image: "images/strawberry.jpg"
   },
+
   {
     id: 8,
     name: "Cool Mint",
@@ -62,6 +70,7 @@ const flavors = [
     description: "Twice the chocolate for the ultimate cocoa lover.",
     image: "images/chocolate.jpg"
   },
+
   {
     id: 10,
     name: "Pure Vanilla",
@@ -69,6 +78,12 @@ const flavors = [
     description: "Simple, elegant, and perfectly sweet vanilla.",
     image: "images/vanilla.jpg"
   }
+
+
+
+
+
 ];
+
 
 export default flavors;
