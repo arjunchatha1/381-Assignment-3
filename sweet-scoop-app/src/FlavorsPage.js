@@ -3,9 +3,14 @@ import { Header, Footer } from "./Homepage";
 import flavors from "./data/flavors";
 
 const FlavorsPage = () => {
-  const [order, setOrder] = useState([]);
+  const [order, setOrder] = useState(() => {
+    const savedOrder = localStorage.getItem("order");
+    return savedOrder ? JSON.parse(savedOrder) : [];
+  });
 
-
+  useEffect(() => {
+    localStorage.setItem("order", JSON.stringify(order));
+  }, [order]);
 
   const addToOrder = (flavor) => {
     const existingItem = order.find((item) => item.id === flavor.id);
