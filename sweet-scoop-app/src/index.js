@@ -1,4 +1,5 @@
 // Group member 1: Arjun Chatha, UCID: 30207126
+// Group member 2: Omar Al-Mahfoodh, UCID: 30257072
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
